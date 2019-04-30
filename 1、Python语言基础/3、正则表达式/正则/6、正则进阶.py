@@ -42,7 +42,7 @@ flags:  标志位
 '''
 r2 = re.sub(r"python", "TEMP", str2, count=2, flags=re.I)
 r3 = re.subn(r"python", repl="TEMP", string=str2, count=0, flags=re.I)
-# print(r2) # <class 'str'>
+print(r2) # <class 'str'>
 # print(r3) # <class 'tuple'>
 
 '''

@@ -54,7 +54,7 @@ def center(url, toPath):
 
 num = 1
 url = "https://www.2717.com/ent/meinvtupian/"
-toPath = "C:\学习\Pycharm项目\Python学习\项目\爬虫\image2"
+toPath = "E:\Temporary\爬虫图片"
 center(url, toPath)
 
 
